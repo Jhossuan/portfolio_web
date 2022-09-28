@@ -1,0 +1,105 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffffef;
+    background-image:linear-gradient(to bottom, #00000084, #342363db, transparent),url('./assets/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.App{
+    /* background-image: url('./assets/images/bg-texture.png'); */
+    background-image: url('./assets/images/bg-texture.png');
+}
+
+.bg_1{
+    background-image: linear-gradient(to top, #000000fa, #16161653 ,#060049b1) ,url('./assets/images/grid-layout.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+.right_img{
+    background-image: url('https://media2.giphy.com/media/SYHz66JfYHbBtZXjHy/giphy.gif?cid=ecf05e470pm2rz46yfi7m933ajn15zu3deima7x12gsrnib7&rid=giphy.gif&ct=g');
+    background-size: cover;
+}
+
+.arrow_float{
+    animation: float 3.5s ease-in-out infinite;
+}
+
+.grid_template{
+    display: grid;
+    gap: .5rem;
+    grid-template-columns:repeat(
+        auto-fit,
+        minmax(
+            176px,
+            1fr
+            )
+    );
+}
+.grid_template2{
+    display: grid;
+    gap: .5rem;
+    grid-template-columns:repeat(
+        auto-fit,
+        minmax(
+            250px,
+            1fr
+            )
+    );
+}
+
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    50%{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background: #05403c;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #fff9;
+}
+
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8rem;
+    position: absolute;
+    left: 5rem;
+    top: 40vh;
+}
+
+.header__socials::after{
+    content: "";
+    width: 1px;
+    height: 3rem;
+    background: #fff;
+}
+
+.icons-social{
+    font-size: 25px;
+}
+
