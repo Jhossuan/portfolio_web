@@ -11,7 +11,7 @@ const tiktok = 'https://vm.tiktok.com/ZTdCCJmhs/'
 
 
   return (
-    <div className="p-6 flex flex-col items-center justify-center" style={{background:'#fff5'}}>
+    <div className="p-6 flex flex-col items-center justify-center" style={{background:'#1b1b1be6'}}>
         <div className="container text-center flex flex-col">
         <small>Jhossuan - Frontend Web Deloper.</small>
         <small className='flex mx-auto'>Página web creada con : <SiVite className='text-sm mx-2' /> <SiReact className='text-sm mx-2' /> <SiTailwindcss className='text-sm mx-2' /> </small>
