@@ -22,7 +22,7 @@ const About = () => {
                         <div className='flex flex-col text-center'>
                             <h2 className='text-xl text-purple-600 font-semibold'>Experiencia</h2>
                             <p className='text-sm'>+10 meses de estudio</p>
-                            <p>+4 meses de trabajo</p>
+                            <p className='text-sm'>+4 meses de trabajo</p>
                         </div>
                     </div>
                     <div className='px-2 py-4 flex flex-col justify-center items-center rounded-md shadow-md mb-3 bg-white text-black'>
@@ -41,10 +41,8 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <p className='text-xl text-white'>
-                    Hola, soy Jhossuan. Desarrollador web frontend con más de 16 semanas de experiencia laboral, mis principales tareas son la maquetación de sitios web y   aplicaciones, consumo y gestión de API REST, optimización y mantenimiento de otras aplicaciones web y mucho más.
-                </p>
-                <a href='#projects'><Button Style='w-40 text-center mt-2' label='Ver Proyectos' /></a>
+                <p className='text-xl text-white'>Hola, soy Jhossuan. Frontend Developer <span className='font-semibold'>"autodidacta"</span> especializado en React Js, actualmente cuento con mas de 16 semanas de experiencia laboral, mis principales funciones son la maquetación adaptable de aplicaciones y sitios web, conexión y gestion de API Rest, optimización de código, manteniemineto de otras aplicaciones web y mucho más.</p>
+                <a href='#contact'><Button Style='w-40 text-center mt-2' label='Contactar' /></a>
             </div>
         </div>
     </div>

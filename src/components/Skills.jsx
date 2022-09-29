@@ -3,9 +3,9 @@ import { SiRedux, SiStyledcomponents, SiExpress, SiTailwindcss, SiMongodb, SiMys
 
 const Skills = () => {
   return (
-    <div className='flex flex-col text-center'>
-        <span className='text-xl'>Cuales son mis</span>
-        <h1 className="text-5xl font-semibold">Habilidades</h1>
+    <div id='stack' className='flex flex-col text-center min-h-screen items-center justify-center md:pt-0 pt-20'>
+        <span className='text-xl'>Cuál es mi</span>
+        <h1 className="text-5xl font-semibold">Stack Tecnológico</h1>
         <div className='mx-auto container grid_template2 mt-10'>
 
             <div className='flex flex-row items-center p-3 bg-white text-black rounded-md shadow-md'>
