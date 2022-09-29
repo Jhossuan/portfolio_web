@@ -68,6 +68,17 @@ body {
             )
     );
 }
+.grid_template4{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns:repeat(
+        auto-fit,
+        minmax(
+            50px,
+            1fr
+            )
+    );
+}
 
 @keyframes float{
     0%, 100%{
@@ -111,5 +122,18 @@ body {
 
 .icons-social{
     font-size: 25px;
+}
+
+.icons_contact::before{
+    content: "";
+    width: 3rem;
+    height: 1px;
+    background: #fff;
+}
+.icons_contact::after{
+    content: "";
+    width: 3rem;
+    height: 1px;
+    background: #fff;
 }
 

@@ -29,10 +29,10 @@ const Navbar = () => {
                 <a href="#stack" className="cursor-pointer hover:underline text-xl" onClick={()=>setActive(false)}>Stack</a>
                 <a href="#projects" className="cursor-pointer hover:underline text-xl" onClick={()=>setActive(false)}>Proyectos</a>
                 <a href="#contact" className="cursor-pointer hover:underline text-xl" onClick={()=>setActive(false)}>Contáctame</a>
-                <a onClick={Loader} href={CV} target='_blank' className="select-none lg:hidden cursor-pointer text-white hover:shadow-none shadow-lg text-lg active:bg-violet-600 hover:bg-violet-700 hover:shadow-gray-800 bg-violet-600 px-6 py-2 rounded-3xl" download>{loader ? 'Descargando...' : 'Descargar CV'}</a>
+                <a onClick={Loader} href={CV} target='_blank' className="select-none lg:hidden cursor-pointer text-white hover:shadow-none shadow-lg text-lg active:bg-violet-600 hover:bg-violet-700 hover:shadow-gray-800 bg-violet-600 px-6 py-2 rounded-md" download>{loader ? 'Descargando...' : 'Descargar CV'}</a>
             </ul>
             <ul className="items-center hidden lg:flex">
-                <a onClick={Loader} href={CV} className="cursor-pointer text-white hover:shadow-none shadow-lg text-lg active:bg-violet-600 hover:bg-violet-700 hover:shadow-gray-800 transition-all duration-300 bg-violet-600 px-6 py-2 rounded-3xl" download>{loader ? 'Descargando...' : 'Descargar CV'}</a>
+                <a onClick={Loader} href={CV} className="cursor-pointer text-white hover:shadow-none shadow-lg text-lg active:bg-violet-600 hover:bg-violet-700 hover:shadow-gray-800 transition-all duration-300 bg-violet-600 px-6 py-2 rounded-md" download>{loader ? 'Descargando...' : 'Descargar CV'}</a>
             </ul>
             <div className="lg:hidden">
                 {

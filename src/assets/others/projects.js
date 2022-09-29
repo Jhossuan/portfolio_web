@@ -10,37 +10,49 @@ const projects = [
         id:1,
         title:'Dedicados System',
         description:'Sistema de gestión de clientes, redes y finanzas de la empresa Telery Networks.',
-        image:telery1
+        image:telery1,
+        repo:'Repositorio privado',
+        hashtag:['#api_rest', '#axios', '#maquetación']
     },
     {
         id:2,
         title:'Node ISP',
         description:'Sistema para la gestión de redes de internet, clientes y demás servicios afines.',
-        image:nodeIsp
+        image:nodeIsp,
+        repo:'Repositorio privado',
+        hashtag:['#api_rest', '#axios', '#auth']
     },
     {
         id:3,
         title:'Feedback System',
         description:'Aplicación web sencilla, usada por clientes para calificar empleados de la empresa Telery.',
-        image:feedbackImg
+        image:feedbackImg,
+        repo:'Repositorio privado',
+        hashtag:['#api_rest', '#axios', '#maquetación']
     },
     {
         id:4,
         title:'RoundOne Landing',
         description:'Landing Page de promoción, para servicios de desarrollo en República Dominicana.',
-        image:roundLanding
+        image:roundLanding,
+        repo:'Repositorio privado',
+        hashtag:['#react', '#responsive', '#primefaces']
     },
     {
         id:5,
         title:'Konex Landing',
         description:'Página de promoción y de venta de servicios de internet.',
-        image:konexLanding
+        image:konexLanding,
+        repo:'Repositorio privado',
+        hashtag:['#react', '#responsive', '#primefaces']
     },
     {
         id:6,
         title:'Snap Landing',
         description:'Página diseñada para un reto de Frontend Mentor.',
-        image:snapLanding
+        image:snapLanding,
+        repo:'https://github.com/Jhossuan/Snap_Landing_Page',
+        hashtag:['#react', '#responsive', '#css']
     }
 ]
 
