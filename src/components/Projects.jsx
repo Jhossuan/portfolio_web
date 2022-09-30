@@ -25,7 +25,7 @@ const Projects = () => {
                       <small className="py-1 px-3 mt-2 rounded-md shadow-md bg-purple-600 text-white flex items-center"><BsGithub className="mr-1" />{repo}</small>
                       : <a href={repo} target='_blank' className="py-1 text-sm px-3 mt-2 rounded-md shadow-md bg-purple-600 text-white flex items-center"><BsGithub className="mr-1" /> Ver código</a>
                     }
-                      <div className="grid_template4 w-full mt-3 mb-2">
+                      <div className="grid_template4 w-full mt-3 mb-2 flex justify-center">
                     {
                       hashtag.map((hash, index) => {
                         return (
